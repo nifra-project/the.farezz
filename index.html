@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        AOS.init({ duration: 800 });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- Navbar Section -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#about">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#galery">Galery</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="#sosmed">Sosmed</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Overlay Section -->
+      <div class="overlay">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Where Innovation Meets Precision.</p>
+        <a href="#about" class="explore-button">Explore</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" data-aos="slide-right">
+      <h2>About Me</h2>
+      <img src="img/pp.jpg" alt="Foto Profil" class="profile-photo" />
+      <br>
+      <h1>Arfin Al Farezqi</h1>
+      <br>
+      <p>Saya seorang programer dan desainer, mengubah ide kompleks menjadi pengalaman digital menawan yang menarik dan menginspirasi.</p>
+      <div class="skills">
+        <div class="skill-item">
+          <i class="fas fa-code"></i>
+          <h3>Development</h3>
+          <p>Menguasai HTML, CSS, dan kerangka kerja tingkat lanjut untuk membangun pengalaman pengguna yang lancar dan dinamis.</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-paint-brush"></i>
+          <h3>Design</h3>
+          <p>Menguasai desighn Logo & Poster mengunakan Inkscape.</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-bullhorn"></i>
+          <h3>Strategy</h3>
+          <p>Mengembangkan strategi khusus yang mendorong keterlibatan dan memperkuat identitas merek.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" data-aos="slide-left">
+      <div class="container">
+        <h2>My Portfolio</h2>
+        <p>Kumpulan proyek yang menampilkan keterampilan dan kreativitas saya.</p>
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <img src="img/karya 1.png" alt="Project 1" />
+            <div class="portfolio-overlay">
+              <h3>Logo</h3>
+            <p>Brand parfume FREZZ KULL.</p>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img src="img/karya 2.png" alt="Project 2" />
+            <div class="portfolio-overlay">
+              <h3>Poster</h3>
+              <p>Poster dakwah islami.</p>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img src="img/karya 3.jpg" alt="Project 3" />
+            <div class="portfolio-overlay">
+              <h3>Label</h3>
+              <p>Label parfume.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galery Section -->
+    <section id="galery" data-aos="fade-down-right">
+      <div class="container">
+        <h2>My Galery</h2>
+        <p>Sekilas tentang momen tak terlupakan, setiap bingkai merupakan bagian dari perjalanan kita.</p>
+        <div class="galery-grid">
+          <div class="galery-item">
+            <img src="img/4.jpg" alt="Galery 1" />
+            <div class="galery-overlay">
+              <h3>Seminar</h3>
+              <p>Dengan Fawzan dari nigeria</p>
+            </div>
+          </div>
+          <div class="galery-item">
+            <img src="img/5.jpg" alt="Galery 2" />
+            <div class="galery-overlay">
+              <h3>Kumpul</h3>
+              <p>Kumpul kelas bersama musyrif</p>
+            </div>
+          </div>
+          <div class="galery-item">
+            <img src="img/6.jpg" alt="Galery 3" />
+            <div class="galery-overlay">
+              <h3>Kunjungan</h3>
+              <p>Kunjungan IDN mengajar</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" data-aos="fade-up">
+      <h2>Services</h2>
+      <div class="service-grid">
+        <div class="service-item">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Web Development</h3>
+          <p>High-quality websites that stand out.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Brand Strategy</h3>
+          <p>Connecting your brand with the right audience.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Responsive Design</h3>
+          <p>Seamless viewing across devices.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="zoom-in-down">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Jika Anda memiliki pertanyaan atau hanya ingin terhubung, silakan menghubungi kami menggunakan formulir di bawah ini.</p>
+        <form action="send_email.php" method="post" class="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Sosmed Section -->
+    <section id="sosmed" data-aos="flip-down">
+      <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=61567968455069&mibextid=ZbWKwL" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/nifra.project/profilecard/?igsh=NTZjbmZpeXR5MTg1" target="_blank">Instagram</a></li>
+        <li><a href="https://youtube.com/@nifra.project?si=MpIebpdHxRq0_t_0" target="_blank">YouTube</a></li>
+        <li><a href="https://www.tiktok.com/@aku.sukses.ogh?_t=8r3wASMaTMA&_r=1" target="_blank">TikTok</a></li>
+      </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy;Portfolio 2024 Al Farezqi. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for smooth scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
